@@ -1,0 +1,76 @@
+.row .columns,
+.row .column {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.badge {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: 0 auto 1em;
+  width: 2em;
+}
+.img-rsp {
+  max-width: 100%;
+}
+.m-t-s {
+  margin-top: 1em;
+}
+.m-b-s {
+  margin-bottom: 1em;
+}
+.m-r-s {
+  margin-right: 1em;
+}
+.m-l-s {
+  margin-left: 1em;
+}
+.m-y-s {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.m-x-s {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.m-t-m {
+  margin-top: 1.625em;
+}
+.m-b-m {
+  margin-bottom: 1.625em;
+}
+.m-r-m {
+  margin-right: 1.625em;
+}
+.m-l-m {
+  margin-left: 1.625em;
+}
+.m-y-m {
+  margin-top: 1.625em;
+  margin-bottom: 1.625em;
+}
+.m-x-m {
+  margin-left: 1.625em;
+  margin-right: 1.625em;
+}
+.m-t-l {
+  margin-top: 2.4375em;
+}
+.m-b-l {
+  margin-bottom: 2.4375em;
+}
+.m-r-l {
+  margin-right: 2.4375em;
+}
+.m-l-l {
+  margin-left: 2.4375em;
+}
+.m-y-l {
+  margin-top: 2.4375em;
+  margin-bottom: 2.4375em;
+}
+.m-x-l {
+  margin-left: 2.4375em;
+  margin-right: 2.4375em;
+}
