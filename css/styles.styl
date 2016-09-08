@@ -1,4 +1,7 @@
 // vars
+sm = 0.2em
+md = 0.5em
+lg = 1em
 spacer = 1em
 marginmult_m = 1.625
 marginmult_l = 2.4375
@@ -12,9 +15,23 @@ colspacer = 1em
 	padding-left colspacer
 	padding-right colspacer
 
+[class*="large-block"]
+	img
+		display inline-block
+		padding md
+		margin 0 auto
+
 ///////////////////////////
 // doc classes
 //
+.bphdrs {
+	background-color yellow
+	text-transform uppercase
+	color darkgray
+	font-weight bold
+	letter-spacing sm*2.25
+	padding md 0 0
+}
 .badge
 	font-size 24px
 	font-weight bold

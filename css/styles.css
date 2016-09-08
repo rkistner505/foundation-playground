@@ -3,6 +3,19 @@
   padding-left: 1em;
   padding-right: 1em;
 }
+[class*="large-block"] img {
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0 auto;
+}
+.bphdrs {
+  background-color: #ff0;
+  text-transform: uppercase;
+  color: #a9a9a9;
+  font-weight: bold;
+  letter-spacing: 0.45em;
+  padding: 0.5em 0 0;
+}
 .badge {
   font-size: 24px;
   font-weight: bold;

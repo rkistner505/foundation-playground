@@ -8,27 +8,48 @@ head
 	link(rel="stylesheet", href="css/styles.css")
 
 body
-
-	.show-for-small-only #[h3.text-center Small Breakpoint]
-	.show-for-medium-only #[h3.text-center Medium Breakpoint]
-	.show-for-large-only #[h3.text-center Large Breakpoint]
+	.row.bphdrs
+		.show-for-small-only #[h3.text-center Small Breakpoint]
+		.show-for-medium-only #[h3.text-center Medium Breakpoint]
+		.show-for-large-only #[h3.text-center Large Breakpoint]
 
 	.row
 		img.img-rsp(src="http://placeimg.com/1600/540")
 
 	.row.m-t-m
-		.medium-4.columns
-			span.secondary.badge 1
-			p.
-				Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-		.medium-4.columns
-			span.secondary.badge 2
-			p.
-				Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-		.medium-4.columns
-			span.secondary.badge 3
-			p.
-				Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		.row
+			.medium-10.medium-centered.columns
+				.large-4.columns
+					span.secondary.badge 1
+					p.
+						Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+				.large-4.columns
+					span.secondary.badge 2
+					p.
+						Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+				.large-4.columns
+					span.secondary.badge 3
+					p.
+						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+	.row.m-t-m
+		.large-8.large-centered.columns
+			h3.text-center This is a freaking awesome title
+			p.text-center.
+				Mariola fume losocim natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+	.row.m-t-m
+		.large-10.large-offset-1.large-centered.columns
+			.large-block-3
+				img(src="http://placeimg.com/300/200")
+				img(src="http://placeimg.com/300/200")
+				img(src="http://placeimg.com/300/200")
+				img(src="http://placeimg.com/300/200")
+				img(src="http://placeimg.com/300/200")
+				img(src="http://placeimg.com/300/200")
+		.large-1.large-offset-1.columns
+
 
 	// scripts
 	script(src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js")
+	script(src="http://127.0.0.1:35729/livereload.js?snipver=1")
