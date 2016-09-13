@@ -7,17 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "doctype html\n\nhead\n	\n	title Home | Foundation Playground\n	\n	link(rel=\"stylesheet\", href=\"https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css\")\n\nbody\n\n	.row\n		\n	.badges\n		span.secondary.badge 2\n	\n	p.\n		Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.\n\n	p.\n		Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.\n\n	p.\n		Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n\n	// scripts\n	script(src=\"https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js\")\n",
-			"file": "index.jade",
-			"file_size": 1264,
-			"file_write_time": 131176924150000000,
-			"settings":
-			{
-				"buffer_size": 1261,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -26,10 +15,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 27.0,
-		"last_filter": "",
+		"height": 87.0,
+		"last_filter": "jade",
 		"selected_items":
 		[
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"stylus",
+				"Set Syntax: Stylus"
+			],
 			[
 				"ja",
 				"Set Syntax: Jade"
@@ -80,10 +77,15 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/RobK/Documents/htdocs/foundation-playground"
+		"/Applications/MAMP/htdocs/foundation-playground",
+		"/Applications/MAMP/htdocs/foundation-playground/css"
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/foundation-playground/css/styles.styl",
+		"/Applications/MAMP/htdocs/foundation-playground/index.jade",
+		"/Applications/MAMP/htdocs/foundation-playground/index.html",
+		"/Applications/MAMP/htdocs/USVomela/wp-config.php",
 		"/Users/RobK/Library/Application Support/Sublime Text 3/Packages/User/linkcdn-foundation.sublime-snippet",
 		"/Users/RobK/Desktop/node/gulpfile.js",
 		"/Users/RobK/Desktop/node/main.js",
@@ -119,6 +121,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"This is longer 1 Donec id elit non mi porta gravida at eget metus.",
+			"This is longer content Donec id elit non mi porta gravida at eget metus.",
+			"Content Goes Here",
+			"table",
+			"</tr>",
+			"</td>",
+			"<td>",
+			">",
+			"</th>",
+			"<th ",
+			"<tr>",
+			"<thead>",
+			"marginmult",
+			"margin-",
+			"m-",
+			" id",
+			"/label",
+			"input type=\"text\" ",
+			" /",
+			"columns\"",
+			"div class=\"",
+			"div class=\"row\"",
+			">",
 			"<",
 			"display: none",
 			"-----------------------------------------------",
@@ -143,37 +168,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								151,
-								151
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -230,12 +226,20 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
-		"last_filter": "",
+		"height": 500.0,
+		"last_filter": "reac",
 		"selected_items":
 		[
+			[
+				"reac",
+				"/Applications/MAMP/htdocs/react/react.sublime-project"
+			],
+			[
+				"",
+				"/Applications/MAMP/htdocs/vomela2.com/vomela2.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{

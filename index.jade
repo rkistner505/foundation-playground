@@ -4,20 +4,20 @@ head
 	
 	title Home | Foundation Playground
 	
-	link(rel="stylesheet", href="css/foundation.min.css")
+	link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css")
 	link(rel="stylesheet", href="css/styles.css")
 
 body
-	.row.bphdrs
+	.row.flush
 		.show-for-small-only #[h3.text-center Small Breakpoint]
 		.show-for-medium-only #[h3.text-center Medium Breakpoint]
 		.show-for-large-only #[h3.text-center Large Breakpoint]
 
-	.row
+	.row.flush
 		img.img-rsp(src="http://placeimg.com/1600/540")
 
-	.row.m-t-m
-		.row
+	.row
+		.row.nobd
 			.medium-10.medium-centered.columns
 				.large-4.columns
 					span.secondary.badge 1
@@ -32,13 +32,13 @@ body
 					p.
 						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-	.row.m-t-m
+	.row.flush
 		a.th(href="#") #[img(src="http://placeimg.com/240/240")]
 		a.th(href="#") #[img(src="http://placeimg.com/240/240")]
 		a.th(href="#") #[img(src="http://placeimg.com/240/240")]
 		a.th(href="#") #[img(src="http://placeimg.com/240/240")]
 
-	.row.m-t-m
+	.row
 		.medium-6.columns
 			.callout.warning
 				button.button.dropdown.round Should be a rounded button
@@ -46,12 +46,91 @@ body
 		.medium-6.columns
 			p Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-	.row.m-t-m
+	.row
 		.large-12.columns
 			h3.text-right.medium-text-center.uppercase Text to align
 
 
+	.row
+		.medium-8.small-12.columns
+			form.p-x-l
+				.row.nobd
+					.large-12.columns
+						labelInput Label
+						input(type="text", placeholder="input label here")
+				.row.nobd
+					.large-4.columns
+						labelInput Label
+						input(type="text", placeholder="input label here")
+					.large-4.columns
+						labelInput Label
+						input(type="text", placeholder="placeholder text")
+					.large-4.columns
+						.row.nobd.collapse
+							label Input Label/label
+							.small-9.columns
+								input(type="text", placeholder="placeholder text")
+							.small-3.columns
+								span.postfix .com
+				.row.nobd
+					.large-12.columns
+						labelSelect Box
+						select
+							option(value="husker") Husker
+							option(value="starbuck") Starbuck
+							option(value="hotdog") Hot Dog
+							option(value="apollo") Apollo
+				.row.nobd
+					.large-6.columns
+						label Choose Your Favorite
+						input#pokemonRed(type="radio", name="pokemon", value="Red")
+						label(for="pokemonRed") Red
+						input#pokemonBlue(type="radio", name="pokemon", value="Blue")
+						label(for="pokemonBlue") Blue
+					.large-6.columns
+						label Check these out
+						input#checkbox1(type="checkbox")
+						label(for="checkbox1") First Choice
+						input#checkbox2(type="checkbox")
+						label(for="checkbox2") Second Choice
+				.row.nobd
+					.large-12.columns
+						label Textarea
+						textarea(placeholder="small-12.columns")
+		.medium-4.small-12.columns
+			table
+				thead
+					tr
+						th(width="10%") client
+						th(width="70%") project
+						th(width="20%") sumpin
+				tbody
+					tr
+						td 10010
+						td Description here
+						td 1
+					tr
+						td 10011
+						td Description here
+						td 1
+					tr
+						td 10012
+						td Description here
+						td 1
+					tr
+						td 10013
+						td Description here
+						td 1
+					tr
+						td 10014
+						td Description here
+						td 1
+					tr
+						td 10015
+						td Description here
+						td 1
 	// scripts
+	
 	script(src="js/vendor/jquery.js")
 	script(src="js/vendor/foundation.min.js")
 	script(src="http://127.0.0.1:35729/livereload.js?snipver=1")
