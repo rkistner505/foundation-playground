@@ -27,6 +27,22 @@
 .img-rsp {
   max-width: 100%;
 }
+#main-menu .site-title {
+  font-size: 1.65em;
+  padding: 0.375rem 0 0 1rem;
+  margin: 0;
+}
+#main-menu .menu li {
+  border-left: solid 2px #d1d1d1;
+}
+#main-menu .menu a {
+  padding: 1rem 2rem;
+  font-weight: bold;
+}
+#main-menu .menu a:hover {
+  background-color: #666;
+  color: #fff;
+}
 .m-t-s {
   margin-top: 1em;
 }

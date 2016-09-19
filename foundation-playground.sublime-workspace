@@ -3,21 +3,26 @@
 	{
 		"selected_items":
 		[
+			[
+				"p",
+				"padding"
+			],
+			[
+				"margin",
+				"marginmult_l"
+			],
+			[
+				"marginmul",
+				"marginmult_m"
+			],
+			[
+				"a",
+				"a"
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"contents": "doctype html\n\nhead\n	\n	title Home | Foundation Playground\n	\n	link(rel=\"stylesheet\", href=\"https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css\")\n\nbody\n\n	.row\n		\n	.badges\n		span.secondary.badge 2\n	\n	p.\n		Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.\n\n	p.\n		Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.\n\n	p.\n		Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n\n	// scripts\n	script(src=\"https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js\")\n",
-			"file": "index.jade",
-			"file_size": 1264,
-			"file_write_time": 131176924150000000,
-			"settings":
-			{
-				"buffer_size": 1261,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -26,10 +31,34 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 27.0,
-		"last_filter": "",
+		"height": 392.0,
+		"last_filter": "packag",
 		"selected_items":
 		[
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"snip",
+				"Snippet: comment-block"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: linkcdn-foundation"
+			],
 			[
 				"ja",
 				"Set Syntax: Jade"
@@ -39,23 +68,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"package",
-				"Preferences: Browse Packages"
-			],
-			[
 				"snipp",
-				"Snippet: Lorem ipsum"
-			],
-			[
-				"Snippet: ",
 				"Snippet: Lorem ipsum"
 			]
 		],
@@ -80,14 +97,24 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/RobK/Documents/htdocs/foundation-playground"
+		"/Users/RobK/Documents/htdocs/foundation-playground",
+		"/Users/RobK/Documents/htdocs/foundation-playground/js/vendor",
+		"/Users/RobK/Documents/htdocs/foundation-playground/partials"
 	],
 	"file_history":
 	[
+		"/Users/RobK/Documents/htdocs/foundation-playground/partials/layout.jade",
+		"/Users/RobK/Documents/htdocs/foundation-playground/index.html",
+		"/Users/RobK/Documents/htdocs/foundation-playground/css/styles.styl",
+		"/Users/RobK/Documents/htdocs/foundation-playground/megamenu.html",
+		"/Users/RobK/Documents/htdocs/foundation-playground/megamenu.jade",
+		"/Users/RobK/Documents/htdocs/foundation-playground/index.jade",
+		"/Users/RobK/Documents/htdocs/bootstrap-playground/index.jade",
+		"/Users/RobK/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/RobK/Documents/htdocs/foundation-playground/foundation-playground.sublime-project",
 		"/Users/RobK/Library/Application Support/Sublime Text 3/Packages/User/linkcdn-foundation.sublime-snippet",
 		"/Users/RobK/Desktop/node/gulpfile.js",
 		"/Users/RobK/Desktop/node/main.js",
-		"/Users/RobK/Documents/htdocs/bootstrap-playground/index.jade",
 		"/Users/RobK/.bash_profile",
 		"/Users/RobK/Documents/htdocs/bootstrap-playground/inc/layout.jade",
 		"/Users/RobK/Documents/htdocs/bootstrap-playground/css/_bp.css",
@@ -105,7 +132,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -119,6 +146,42 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"foundation.min",
+			"<li>",
+			" class=\"",
+			" columns",
+			"<div class=\"",
+			"</a></li>",
+			"div class=\"",
+			">",
+			"/div",
+			"<",
+			"large",
+			"medium",
+			"li",
+			"a(",
+			"medium",
+			"medium-offset-1.",
+			"1.5",
+			"*2",
+			"1.5",
+			"-m",
+			"-s",
+			"1.5",
+			"-m",
+			"m",
+			"*2",
+			"-s",
+			".small-2.columns",
+			"-3",
+			"small-2",
+			"small-4",
+			"		.columns",
+			".columns",
+			".small-4.",
+			".small",
+			".columns",
+			"foundation",
 			"<",
 			"display: none",
 			"-----------------------------------------------",
@@ -143,37 +206,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								151,
-								151
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
