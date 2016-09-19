@@ -97,15 +97,14 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/RobK/Documents/htdocs/foundation-playground",
-		"/Users/RobK/Documents/htdocs/foundation-playground/js/vendor",
-		"/Users/RobK/Documents/htdocs/foundation-playground/partials"
+		"/Users/RobK/Documents/htdocs/foundation-playground"
 	],
 	"file_history":
 	[
+		"/Users/RobK/Documents/htdocs/foundation-playground/.gitignore",
+		"/Users/RobK/Documents/htdocs/foundation-playground/css/styles.styl",
 		"/Users/RobK/Documents/htdocs/foundation-playground/partials/layout.jade",
 		"/Users/RobK/Documents/htdocs/foundation-playground/index.html",
-		"/Users/RobK/Documents/htdocs/foundation-playground/css/styles.styl",
 		"/Users/RobK/Documents/htdocs/foundation-playground/megamenu.html",
 		"/Users/RobK/Documents/htdocs/foundation-playground/megamenu.jade",
 		"/Users/RobK/Documents/htdocs/foundation-playground/index.jade",

@@ -3,19 +3,42 @@ sm = 0.2em
 md = 0.5em
 lg = 1em
 spacer = 1em
-marginmult_m = 1.625
-marginmult_l = 2.4375
+space_mult_m = 1.625
+space_mult_l = 2.4375
 colspacer = 1em
 
 c_gray = #666
 
+// font-size
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic")
+
+
 ///////////////////////////
-// redefs
+// foundation redefs
 //
+body, 
+h1,h2,h3,h4,h5,h6
+	font-family 'Open Sans', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+
+h1,h2,h3,h4,h5,h6
+	font-weight 700
+
 .row .columns
 .row .column
 	padding-left colspacer
 	padding-right colspacer
+
+body .row
+	border-top 2px solid black
+	padding-top lg
+	padding-bottom lg
+	&.nobd 
+		border-top none
+	&.flush
+		padding-top 0
+		padding-bottom 0
+		border-top 0
+		
 
 [class*="large-block"]
 	img
@@ -70,6 +93,8 @@ c_gray = #666
 ///////////////////////////
 // margin & padding helpers
 //
+
+// margin
 .m-t-s
 	margin-top spacer
 .m-b-s
@@ -85,30 +110,73 @@ c_gray = #666
 	margin-left spacer
 	margin-right spacer
 .m-t-m
-	margin-top spacer*marginmult_m
+	margin-top spacer*space_mult_m
 .m-b-m
-	margin-bottom spacer*marginmult_m
+	margin-bottom spacer*space_mult_m
 .m-r-m
-	margin-right spacer*marginmult_m
+	margin-right spacer*space_mult_m
 .m-l-m
-	margin-left spacer*marginmult_m
+	margin-left spacer*space_mult_m
 .m-y-m
-	margin-top spacer*marginmult_m
-	margin-bottom spacer*marginmult_m
+	margin-top spacer*space_mult_m
+	margin-bottom spacer*space_mult_m
 .m-x-m
-	margin-left spacer*marginmult_m
-	margin-right spacer*marginmult_m
+	margin-left spacer*space_mult_m
+	margin-right spacer*space_mult_m
 .m-t-l
-	margin-top spacer*marginmult_l
+	margin-top spacer*space_mult_l
 .m-b-l
-	margin-bottom spacer*marginmult_l
+	margin-bottom spacer*space_mult_l
 .m-r-l
-	margin-right spacer*marginmult_l
+	margin-right spacer*space_mult_l
 .m-l-l
-	margin-left spacer*marginmult_l
+	margin-left spacer*space_mult_l
 .m-y-l
-	margin-top spacer*marginmult_l
-	margin-bottom spacer*marginmult_l
+	margin-top spacer*space_mult_l
+	margin-bottom spacer*space_mult_l
 .m-x-l
-	margin-left spacer*marginmult_l
-	margin-right spacer*marginmult_l
+	margin-left spacer*space_mult_l
+	margin-right spacer*space_mult_l
+// padding
+.p-t-s
+	padding-top spacer
+.p-b-s
+	padding-bottom spacer
+.p-r-s
+	padding-right spacer
+.p-l-s
+	padding-left spacer
+.p-y-s
+	padding-top spacer
+	padding-bottom spacer
+.p-x-s
+	padding-left spacer
+	padding-right spacer
+.p-t-m
+	padding-top spacer*space_mult_m
+.p-b-m
+	padding-bottom spacer*space_mult_m
+.p-r-m
+	padding-right spacer*space_mult_m
+.p-l-m
+	padding-left spacer*space_mult_m
+.p-y-m
+	padding-top spacer*space_mult_m
+	padding-bottom spacer*space_mult_m
+.p-x-m
+	padding-left spacer*space_mult_m
+	padding-right spacer*space_mult_m
+.p-t-l
+	padding-top spacer*space_mult_l
+.p-b-l
+	padding-bottom spacer*space_mult_l
+.p-r-l
+	padding-right spacer*space_mult_l
+.p-l-l
+	padding-left spacer*space_mult_l
+.p-y-l
+	padding-top spacer*space_mult_l
+	padding-bottom spacer*space_mult_l
+.p-x-l
+	padding-left spacer*space_mult_l
+	padding-right spacer*space_mult_l
