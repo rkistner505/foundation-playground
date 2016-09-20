@@ -16,6 +16,16 @@ h5,
 h6 {
   font-weight: 700;
 }
+@media screen and (min-width: bp_md) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #f00 !important;
+  }
+}
 .row .columns,
 .row .column {
   padding-left: 1em;
@@ -193,4 +203,14 @@ body .row.flush {
 .p-x-l {
   padding-left: 2.4375em;
   padding-right: 2.4375em;
+}
+@media only screen and (max-width: 640px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #f00;
+  }
 }
